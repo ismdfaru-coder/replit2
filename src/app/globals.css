@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 25% 11%;
+    --foreground: 0 0% 98%;
+    --card: 260 25% 14%;
+    --card-foreground: 0 0% 98%;
+    --popover: 260 25% 11%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 24 94% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 260 25% 25%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 260 25% 25%;
+    --muted-foreground: 260 5% 63%;
+    --accent: 260 25% 14%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 260 25% 20%;
+    --input: 260 25% 20%;
+    --ring: 24 94% 50%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 260 25% 11%;
+    --foreground: 0 0% 98%;
+    --card: 260 25% 14%;
+    --card-foreground: 0 0% 98%;
+    --popover: 260 25% 11%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 24 94% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 260 25% 25%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 260 25% 25%;
+    --muted-foreground: 260 5% 63%;
+    --accent: 260 25% 14%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 260 25% 20%;
+    --input: 260 25% 20%;
+    --ring: 24 94% 50%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-image: url('https://readdy.ai/api/search-image?query=Beautiful%20mountain%20landscape%20with%20snow-capped%20peaks%20at%20sunset%20golden%20hour%20panoramic%20view%20with%20dramatic%20clouds%20and%20warm%20orange%20pink%20sky%20colors%20majestic%20alpine%20scenery%20perfect%20for%20travel%20website%20hero%20background&width=1920&height=1080&seq=mountain-hero-001&orientation=landscape');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
